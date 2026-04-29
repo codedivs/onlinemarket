@@ -1,0 +1,16 @@
+header {
+	background-color: yellow;
+}
+#searchandfilter {
+	margin:5px;
+	background-color: purple;
+}
+#searchandfilter.divs {
+	margin: 2px;
+}
+#productdetail {
+	background: black;
+}
+#imagedetails {
+	background-color: grey;
+}
