@@ -1,22 +1,24 @@
 <html>
   <head>
 	  <link rel= "stylesheet" href="homepage.css">
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>indexpage</title>
   </head>
 	<body>
+		<header>
+			<form>
+					<label for="search_items">search</label>
+					<input name="search_items" id="search_items" type="search" placeholder="search">
+					<button type="submit"> Search </button>
+			</form>
+		</header>
 		<main>
-			<div>
+			<div id="categories">
 				classifications of items
 			</div>
-			<div>
-				<div>
-					<form>
-						<label for="search_items">
-							search
-						</label>
-						<input type="search" placeholder="search">
-					</form>
-				</div>
-				
+			<div id="item_list">			
+				items list
 			</div>
 		</main>
 	</body>
